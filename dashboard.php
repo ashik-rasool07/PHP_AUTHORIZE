@@ -21,14 +21,14 @@ $_SESSION['LAST_ACTIVITY']=time();
     <body>
         <div class="main">
             <div class="sec1">
-        <h1>WELCOME  <span id="name"> <?=$_SESSION['user']?></span> Transgender boy   </h1>
+        <h1>WELCOME  <span id="name"> <?=$_SESSION['user']?></span>  </h1>
         <?php
         if(isset($_COOKIE['user_name']))
             {
                echo "<p>test.cookie: " . $_COOKIE['User_name'] . "</p>";
              } 
         ?>
-        <a href="logout.php">PODA POTTA</a>
+        <a href="logout.php">RETURN</a>
             </div>
             </div>
 
