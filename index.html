@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGN-UP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="sec-1">
+        <div class="sec1-1">
+          <span id="text">WELCOME</span><br />
+          <span>SIGN_UP to create account</span>
+        </div>
+        <form action="sign_up.php" method="POST" class="input-field">
+          <div class="name">
+            <input id="ip"
+              type="text"
+              id="name"
+              placeholder="Enter your name"
+              required
+              name="name"
+            />
+          </div>
+           <div class="email">
+            <input id="ip"
+              type="email"
+              id="email"
+              placeholder="enter_valid mail"
+              required
+              name="email"
+            />
+          </div>
+          <div class="password">
+            <input id="ip"
+              type="password"
+              id="password"
+              placeholder="password"
+              required
+              name="password"
+            />
+          </div>
+           
+          
+          <div class="phone">
+            <input id="ip"
+              type="tel"
+              id="phone"
+              placeholder="phone"
+              required
+              name="phone"
+            />
+          </div>
+         <div class="rem_1">
+          <div class="rem">
+            <input type="checkbox" name="remember" />
+            <label>remember</label>
+          </div>
+          </div>
+
+          <span>Already have an account? <a href="login.html" >LOG-IN</a></span>
+
+          <label>
+            <input type="submit" />
+            <input type="reset" />
+          </label>
+        </form>
+      </div>
+    </div>
+    <!-- <?php if(isset($_GET['timeout'])): ?>
+   <p style="color: red;">error</p>
+   <?php endif ?>-->
+  </body>
+</html>

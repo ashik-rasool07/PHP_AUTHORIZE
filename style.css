@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+  
+}
+
+.main{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.sec-1
+{
+    height: 550px;
+    width: 550px;
+   border: 1px solid red;
+   background-color: white;
+   border-radius: 32px;
+}
+.sec1-1{
+    text-align: center;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    padding: 32px;
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#text{
+    font-size: 80px;
+}
+
+#ip{
+    text-align: center;
+    width: 250px;
+    height: 24px;
+}
+
+#ip:hover{
+    transform: scale(1.1);
+}
